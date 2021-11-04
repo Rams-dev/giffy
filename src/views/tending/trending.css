@@ -1,0 +1,45 @@
+
+
+.trending{
+    /* grid-area: span 12; */
+   
+}
+
+
+.trending-content{
+
+}
+
+.trend-name{
+    cursor: pointer;
+    margin: 10px;
+    text-align: left;
+}
+
+.trend-name:hover{
+    color: rgb(73, 73, 73);
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .trending{
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    .trending-content{
+        /* grid-area: span 12 / span 12; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .trend-name{
+        margin: 5px;
+        cursor: pointer;
+    }
+    
+}
