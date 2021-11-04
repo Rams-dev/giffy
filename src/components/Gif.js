@@ -4,12 +4,15 @@ import { Link } from 'wouter'
 export default function Gif(props) {
     const { title, id, url } = props
     return (
-                <div className="gif">
+        <>
+        
+        <div className="gif">
             <Link to={`/gif/${id}`}>
-                    <img src={url} alt={title} title={title} className="image-gif" />
+                <img src={url} alt={title} title={title} className="image-gif" />
             </Link>
-                    <p class="title-gif">{title}</p>
-                </div>
+            <p class="title-gif">{title}</p>
+        </div>
+        </>
     )
 
 }

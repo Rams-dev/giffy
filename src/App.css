@@ -90,6 +90,58 @@
   justify-content: center;
 }
 
+.Button_start{
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  padding-top: 30px;
+}
+
+.button_start__button{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-right: 5px;
+
+}
+
+.button_start__button:hover{
+  background: rgb(235, 234, 234);
+  outline: none;
+  border: none;
+}
+
+.button_start__button:active{
+  transform: scale(.98);
+}
+
+.seeMoreGifs{
+  padding: 20px 0px;
+}
+
+.button_share{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: #fff;
+}
+
+.button_share:hover{
+  background: rgb(1, 128, 11);
+  color: #fff;
+  border: none;
+  transition: ease-in-out .5s;
+}
+
+.icon{
+  width: 20px;
+  margin-right: 5px;
+
+}
+
+
 @media screen and (max-width: 760px) {
   
   .column-gifs{
