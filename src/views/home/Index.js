@@ -11,16 +11,14 @@ export default function Index(){
         <>
         <Header/>
         <div className="home">
-            <div className="column-gifs">
+            <section className="column-gifs">
                 <h3 class="title">Última busquedad</h3>
                 <ListGif gifs={gifs}/>
-            </div>
-
-
-            <div class="trending">
+            </section>
+            <section class="trending">
             <h3 class="title">Tendencias</h3>
                 <Trending/>
-            </div>
+            </section>
             </div>
         </>
     )

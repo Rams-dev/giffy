@@ -8,7 +8,7 @@
 
 .image-gif{
   width: 100%;  
-  height: 200px;;
+  height: 100%;
   object-fit: fill;
 }
 
@@ -26,6 +26,8 @@
   height: 30px;
   outline: none;
   width: 400px;
+  padding-left: 10px;
+  padding-right: 10px;
   
 }
 .home{
@@ -82,7 +84,7 @@
 }
 
 .gifSelected{
-  height: auto;
+  height: 450;
   position: relative;
   display: flex;
   justify-content: center;

@@ -12,5 +12,4 @@ export default function Routes(){
             <Route path="/" component={Home}/>
         </GifContextProvider>
     )
-    
 }
